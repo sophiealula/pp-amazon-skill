@@ -1,0 +1,20 @@
+# Helper's bundled deps — installed by install.sh into /usr/local/lib/, not the repo
+node_modules/
+package-lock.json
+
+# Build artifacts
+cli/dist/
+cli/*.test
+
+# OS
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
+
+# Personal data (just in case anyone tries to add it)
+cookies.json
+history.db
+*.bak
+*.bak-*
